@@ -12,6 +12,7 @@ typing = "*"
 pytest = "*"
 rope = "*"
 flaky = "*"
+project-initalizer = {editable = true, path = "."}
 
 [requires]
 python_version = "3.9"

@@ -1,6 +1,6 @@
 import subprocess
 
-from . import utils
+import utils
 
 class Pipenv(object):
     '''

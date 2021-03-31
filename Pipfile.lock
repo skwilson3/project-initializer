@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "63cd63271d0dc23cdeab46172f9d0de421398ef578ebb1f2d2afdb743de69d81"
+            "sha256": "d46aaf6b8d465833b5bb00ef7e7ad45b3ac7a0ef447a272a17d59c9c29c5babb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -123,6 +123,10 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.13.1"
+        },
+        "project-initalizer": {
+            "editable": true,
+            "path": "."
         },
         "py": {
             "hashes": [

@@ -4,7 +4,7 @@ import configparser
 import typing
 import pathlib
 
-from . import utils
+import utils
 
 @utils.path_resolved
 def init_git(path: typing.Union[str,pathlib.Path]) -> git.Repo:
