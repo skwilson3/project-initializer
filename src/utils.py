@@ -39,6 +39,13 @@ def create_directory(path: ValidPath):
 @path_resolved
 @contextlib.contextmanager
 def working_directory(path):
+    '''
+    Allows a method to temporarily switch the current working directory, and
+    switch back when it's done
+
+        Parameters:
+            path (str | pathlib.Path): The path to switch the current working directory to
+    '''
     prev_cwd = pathlib.Path.cwd()
     os.chdir(path)
     try:
