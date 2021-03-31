@@ -4,9 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+gitpython = "*"
+pyinputplus = "*"
+typing = "*"
 
 [dev-packages]
 pytest = "*"
+rope = "*"
+flaky = "*"
 
 [requires]
 python_version = "3.9"
