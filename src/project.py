@@ -38,7 +38,7 @@ def new():
     proj.author_email = gittools.get_user_email(cfg)
 
     proj.root = cwd.name
-    proj.name = pyip.inputStr(prompt=f"Project name? [default: {cwd.name}", default=cwd.name, blank=True)
+    proj.name = pyip.inputStr(prompt=f"Project name? [default: {cwd.name}]", default=cwd.name, blank=True)
     proj.src_dir = Path(pyip.inputFilepath(prompt='Source directory? [default: src/]', default='src/', blank=True))
     proj.test_dir = Path(pyip.inputFilepath(prompt='Test directory? [default: tests/]', default='tests/', blank=True))
 
